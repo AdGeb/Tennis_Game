@@ -1,3 +1,5 @@
+package model;
+
 public class Server implements IGame {
 
     private Points serverPoints;

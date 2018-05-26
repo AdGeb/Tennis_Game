@@ -1,4 +1,6 @@
-public class Receiver implements IGame{
+package model;
+
+public class Receiver implements IGame {
     private Points receiverPoints;
 
     public Receiver() {

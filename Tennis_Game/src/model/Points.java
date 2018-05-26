@@ -1,10 +1,12 @@
+package model;
+
 import java.util.EnumSet;
 
 public enum Points {
     LOVE("0"),
     FIFTEEN("15"),
     THIRTY("30"),
-    FOURTY("40"),
+    FORTY("40"),
     ADVANTAGE("A");
 
     private String value;
