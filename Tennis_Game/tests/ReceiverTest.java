@@ -1,3 +1,5 @@
+import model.Points;
+import model.Receiver;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -18,7 +20,7 @@ public class ReceiverTest {
     public void testRemoveAdvantage(){
         r.setReceiverPoints(Points.ADVANTAGE);
         r.removeAdvantage();
-        assertEquals(Points.FOURTY, r.getReceiverPoints());
+        assertEquals(Points.FORTY, r.getReceiverPoints());
     }
 
 }

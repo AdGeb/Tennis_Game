@@ -1,3 +1,5 @@
+import model.Points;
+import model.Server;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -18,6 +20,6 @@ public class ServerTest {
     public void testRemoveAdvantage(){
         s.setServerPoints(Points.ADVANTAGE);
         s.removeAdvantage();
-        assertEquals(Points.FOURTY, s.getServerPoints());
+        assertEquals(Points.FORTY, s.getServerPoints());
     }
 }
